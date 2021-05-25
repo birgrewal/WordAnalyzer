@@ -1,0 +1,22 @@
+@media only screen and (max-width: 1300px){
+    .results{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr); 
+        height: 100%
+    }
+}
+
+@media only screen and (max-width: 580px){
+    .container{
+        width: 70vw;
+        right: 52%;
+    }
+}
+
+@media only screen and (max-width: 580px){
+    .container{
+        width: 80vw;
+        right: 54%;
+    }
+}
+
